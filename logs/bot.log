@@ -1,0 +1,58 @@
+2026-09-27 16:08:48,974 INFO Telegram bot is running. Logs: C:\Users\Михаил\Desktop\VPg04\logs
+2026-09-27 16:09:40,152 INFO reply chat=5286641259 chars=39
+2026-09-27 16:10:33,994 INFO help chat=5286641259
+2026-09-27 16:25:44,447 INFO Telegram bot is running. Logs: C:\Users\Михаил\Desktop\VPg04\logs
+2026-09-27 16:26:41,332 INFO reply chat=5286641259 chars=37
+2026-09-27 16:27:22,736 INFO reply chat=5286641259 chars=22
+2026-09-27 16:30:54,329 INFO reply chat=5286641259 chars=201
+2026-09-27 16:31:29,193 INFO add_text chat=5286641259 chunks=1
+2026-09-27 16:41:43,412 INFO Telegram bot is running. Logs: C:\Users\Михаил\Desktop\VPg04\logs
+2026-09-27 16:42:00,920 ERROR add_url failed chat=5286641259
+Traceback (most recent call last):
+  File "c:\Users\Михаил\Desktop\VPg04\bot.py", line 381, in _run_add_url
+    notes.append(agent.ingest_url(url))
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Михаил\Desktop\VPg04\main.py", line 352, in ingest_url
+    text = _page_text(url).strip()
+           ^^^^^^^^^^^^^^^
+  File "c:\Users\Михаил\Desktop\VPg04\main.py", line 131, in _page_text
+    response.raise_for_status()
+  File "C:\Users\Михаил\Desktop\VPg04\.venv\Lib\site-packages\requests\models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://bre.ruwiki.ru/wiki/%D0%9B%D1%83%D0%BD%D0%B0
+2026-09-27 16:49:55,972 INFO Telegram bot is running. Logs: C:\Users\Михаил\Desktop\VPg04\logs
+2026-09-27 16:50:52,071 ERROR add_url failed chat=5286641259
+Traceback (most recent call last):
+  File "c:\Users\Михаил\Desktop\VPg04\bot.py", line 381, in _run_add_url
+    notes.append(agent.ingest_url(url))
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Михаил\Desktop\VPg04\main.py", line 364, in ingest_url
+    text = _page_text(url).strip()
+           ^^^^^^^^^^^^^^^
+  File "c:\Users\Михаил\Desktop\VPg04\main.py", line 142, in _page_text
+    raise _blocked_page_error(url)
+ValueError: Сайт bre.ruwiki.ru не отдаёт страницу автоматическому запросу: стоит антибот-проверка. Откройте статью в браузере, скопируйте текст и отправьте его командой /add_text.
+2026-09-27 16:51:59,919 INFO add_url chat=5286641259 urls=1
+2026-09-27 17:03:18,325 INFO reply chat=5286641259 chars=1749
+2026-09-27 17:05:02,567 INFO search chat=5286641259 hits=5
+2026-09-27 17:25:25,183 ERROR add_url failed chat=5286641259
+Traceback (most recent call last):
+  File "c:\Users\Михаил\Desktop\VPg04\bot.py", line 381, in _run_add_url
+    notes.append(agent.ingest_url(url))
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Михаил\Desktop\VPg04\main.py", line 364, in ingest_url
+    text = _page_text(url).strip()
+           ^^^^^^^^^^^^^^^
+  File "c:\Users\Михаил\Desktop\VPg04\main.py", line 150, in _page_text
+    raise ValueError("Страница слишком большая для индексации.")
+ValueError: Страница слишком большая для индексации.
+2026-09-27 17:26:20,960 INFO add_url chat=5286641259 urls=1
+2026-09-27 17:32:09,471 INFO Telegram bot is running. Logs: C:\Users\Михаил\Desktop\VPg04\logs
+2026-09-27 17:33:15,545 INFO reply chat=5286641259 chars=52
+2026-09-27 18:29:08,380 INFO Telegram bot is running. Logs: C:\Users\Михаил\Desktop\VPg04\logs
+2026-09-27 18:32:30,268 INFO reply chat=5286641259 chars=1082
+2026-09-27 18:53:03,325 INFO Telegram bot is running. Logs: C:\Users\Михаил\Desktop\VPg04\logs
+2026-09-27 18:54:09,036 INFO reply chat=5286641259 chars=284
+2026-09-27 18:55:54,305 INFO reply chat=5286641259 chars=169
+2026-09-27 18:58:57,661 INFO reply chat=5286641259 chars=557
+2026-09-27 19:05:37,059 INFO reply chat=5286641259 chars=422
